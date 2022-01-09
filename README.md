@@ -11,7 +11,7 @@ Summary: AI Toolkit for Healthcare Imaging
 
 Development: https://github.com/Project-MONAI/MONAI
 
-Documentation: https://docs.monai.io/en/latest/
+Documentation: https://docs.monai.io/en/stable/
 
 MONAI is a PyTorch-based, open-source framework for deep learning in
 healthcare imaging, part of PyTorch Ecosystem.
