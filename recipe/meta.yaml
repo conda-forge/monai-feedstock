@@ -1,5 +1,5 @@
 {% set name = "monai" %}
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/Project-MONAI/MONAI/archive/refs/tags/{{ version }}.tar.gz
-  sha256: b427c117250b24199ea88c0b3ec1a6d80a22958b4413b7c85c6318ef011f6479
+  sha256: 5da1c7f5df8b9fd8e6451a4cd92e526bc9cff12f8f5ca6687fb449ec136947d1
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -38,7 +38,7 @@ about:
   home: https://monai.io/
   license: Apache-2.0
   license_file: LICENSE
-  summary: 'AI Toolkit for Healthcare Imaging'
+  summary: AI Toolkit for Healthcare Imaging
   description: |
     MONAI is a PyTorch-based, open-source framework for deep learning in
     healthcare imaging, part of PyTorch Ecosystem.
