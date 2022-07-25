@@ -152,4 +152,5 @@ Feedstock Maintainers
 =====================
 
 * [@mdraw](https://github.com/mdraw/)
+* [@wyli](https://github.com/wyli/)
 
