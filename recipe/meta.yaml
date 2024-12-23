@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Project-MONAI/MONAI/archive/refs/tags/{{ version }}.tar.gz
-  sha256: aa47dda820322dc964c97a6f06f9dfe16b19ecc38adc8cac46dfe1e5f9225b50
+  sha256: 3ed592c7a760f5c3084021da5585cd1ba5e52a969b85a62e1f15495cb71ae26e
 
 build:
   noarch: python
