@@ -1,5 +1,5 @@
 {% set name = "monai" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Project-MONAI/MONAI/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 66914a90db8d9e1146ab2e9debb4a53075f8d419f0068593ea2787bd12f3c68c
+  sha256: 334d948a9961caa7c472a813490e8141c1290f6a4c36640531fba24b8041405d
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy >=1.24, <3.0
-    - pytorch >=2.4.1, <2.7.0
+    - pytorch >=2.4.1
 
 test:
   imports:
