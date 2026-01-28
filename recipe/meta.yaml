@@ -1,5 +1,5 @@
 {% set name = "monai" %}
-{% set version = "1.5.1" %}
+{% set version = "1.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Project-MONAI/MONAI/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 334d948a9961caa7c472a813490e8141c1290f6a4c36640531fba24b8041405d
+  sha256: db3d43ebbe37b4e1f6af87ca53e6487e4e07a374ebd4d779f10c4e79d2df6241
 
 build:
   noarch: python
